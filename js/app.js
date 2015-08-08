@@ -35,7 +35,7 @@ $(document).ready(function () {
 var getUsers = function(interest) {
 
 	$.ajax({
-		url: "http://www.behance.net/v2/users?client_id=4FS7opDXhqN1TAKf63h6hvDiLBgFRT8f&q=" + interest,
+		url: "https://www.behance.net/v2/users?client_id=4FS7opDXhqN1TAKf63h6hvDiLBgFRT8f&q=" + interest,
 		jsonp: "callback",
 		dataType: "jsonp",
 

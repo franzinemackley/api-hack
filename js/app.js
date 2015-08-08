@@ -14,7 +14,7 @@ $(document).ready(function () {
 		var interest = $("input[name='interest']").val();
 		$(".results").show("fade", 800);
 		$(".introduction, .first").hide("slide");
-		$(".restart").show(4000);
+		$(".restart").show(1000);
 		getUsers(interest);
 			  });
 
